@@ -10,7 +10,6 @@ logger.addHandler(handler)
 
 #Edit these
 TOKEN = ""
-Botspace = 'sample-name'
 prefix = '$'
 
 bot = commands.Bot(command_prefix=prefix)
@@ -24,21 +23,13 @@ async def on_message(message):
     if message.author != bot.user:
         if message.content.startswith(prefix):
             await bot.process_commands(message)
-        elif message.channel.name == Botspace:
-            #do bot stuff here
+        else:
+            pass
+            #On message do thing
 
 @bot.command()
 async def ping(ctx):
     latency = bot.latency
     await ctx.send(latency)
-
-@bot.command()
-async def createBotspace(ctx):
-    createBotspace = True
-    for channel in ctx.guild.channels:
-        if channel.name == Botspace:
-            createBotspace = False
-    if (createBotspace):
-        await ctx.guild.create_text_channel(Botspace)
 
 bot.run(TOKEN)
