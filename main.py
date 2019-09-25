@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+from APIs.mhw_db import searchMHW
 import logging
 
 logger = logging.getLogger('discord')
@@ -9,8 +10,8 @@ handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(me
 logger.addHandler(handler)
 
 #Edit these
-TOKEN = ""
-prefix = '$'
+TOKEN = "NjI2MTE3OTg1NTQ3MDU5MjAx.XYpb5A.N7P1oaGZUR_YSkK7SJfoDM0MMr0"
+prefix = '>>'
 
 bot = commands.Bot(command_prefix=prefix)
 
@@ -31,5 +32,9 @@ async def on_message(message):
 async def ping(ctx):
     latency = bot.latency
     await ctx.send(latency)
+
+@bot.command()
+async def MHW(ctx, message):
+    await ctx.send(embed=searchMHW(message, context='items'))
 
 bot.run(TOKEN)

@@ -1,0 +1,12 @@
+ailments
+armor
+armor/sets
+charms
+decorations
+events
+items
+locations
+monsters
+motion-values
+skills
+weapons

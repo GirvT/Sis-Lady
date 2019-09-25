@@ -11,4 +11,4 @@ def textCensor(message):
     for word in censorText:
         if word in message.content.lower():
             await message.delete()
-            await message.channel.set_permissions(message.author, read_messages=True, send_messages=False)
+            await message.channel.set_permissions(message.author, send_messages=False)

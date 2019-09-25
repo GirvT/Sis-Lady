@@ -1,0 +1,101 @@
+{
+    "armorSet": {
+        "bonus": null,
+        "id": 145,
+        "name": "Sealed Eyepatch Alpha",
+        "pieces": [
+            639
+        ],
+        "rank": "high"
+    },
+    "assets": {
+        "imageFemale": "https://assets.mhw-db.com/armor/ba992d16ac771a415c188fcce8f2aa782503ff46.ef25bd6fb95d01f75b62d494a5d17675.png",
+        "imageMale": "https://assets.mhw-db.com/armor/ba992d16ac771a415c188fcce8f2aa782503ff46.ef25bd6fb95d01f75b62d494a5d17675.png"
+    },
+    "attributes": {},
+    "crafting": {
+        "materials": [
+            {
+                "item": {
+                    "carryLimit": 0,
+                    "description": "Cloth made from the glossy black hide of a monster. Not obtainable by normal means.",
+                    "id": 446,
+                    "name": "Black Bandage",
+                    "rarity": 0,
+                    "value": 0
+                },
+                "quantity": 2
+            },
+            {
+                "item": {
+                    "carryLimit": 0,
+                    "description": "Rare Shamos material. Obtained by carving. Used for many purposes.",
+                    "id": 206,
+                    "name": "Shamos Scale+",
+                    "rarity": 6,
+                    "value": 420
+                },
+                "quantity": 7
+            },
+            {
+                "item": {
+                    "carryLimit": 0,
+                    "description": "Rare Shamos material. Obtained by carving. Supple, used to craft gear.",
+                    "id": 207,
+                    "name": "Shamos Hide+",
+                    "rarity": 6,
+                    "value": 480
+                },
+                "quantity": 5
+            },
+            {
+                "item": {
+                    "carryLimit": 0,
+                    "description": "Material from high rank small fanged wyverns. Sharp enough that it might serve as a makeshift knife.",
+                    "id": 155,
+                    "name": "Piercing Claw",
+                    "rarity": 6,
+                    "value": 800
+                },
+                "quantity": 4
+            }
+        ]
+    },
+    "defense": {
+        "augmented": 84,
+        "base": 46,
+        "max": 68
+    },
+    "id": 639,
+    "name": "Sealed Eyepatch Alpha",
+    "rank": "high",
+    "rarity": 5,
+    "resistances": {
+        "dragon": 0,
+        "fire": 3,
+        "ice": 2,
+        "thunder": 0,
+        "water": 2
+    },
+    "skills": [
+        {
+            "description": "Fire resistance +6",
+            "id": 62,
+            "level": 1,
+            "modifiers": {
+                "resistFire": 6
+            },
+            "skill": 20,
+            "skillName": "Fire Resistance"
+        }
+    ],
+    "slots": [
+        {
+            "rank": 2
+        },
+        {
+            "rank": 1
+        }
+    ],
+    "type": "head"
+}
