@@ -10,7 +10,7 @@ handler.setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(me
 logger.addHandler(handler)
 
 #Edit these
-TOKEN = "NjI2MTE3OTg1NTQ3MDU5MjAx.XYpb5A.N7P1oaGZUR_YSkK7SJfoDM0MMr0"
+TOKEN = ""
 prefix = '>>'
 
 bot = commands.Bot(command_prefix=prefix)
